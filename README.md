@@ -1,50 +1,55 @@
  # Create Blazor ListView In Blazor Webassembly App
 
-The [Blazor ListView](https://www.syncfusion.com/blazor-components/blazor-listview?utm_source=github&utm_medium=listing&utm_campaign=blazor-listview-github-samples) is a list-like interface that allows you to select an item or multiple items. A quick start Blazor WebAssembly app that allows you to configure the Blazor ListView component from Syncfusion with its available options. This project contains simple code customizations, as well as some important features like how to bind different types of data, group list items, add checkboxes to a list, and add nested list items.
+**Repository Description**  
+This repository contains a **Blazor WebAssembly sample application** that demonstrates how to create and configure the Syncfusion **Blazor ListView** component.
+
+The Blazor ListView is a list‑like interface that allows users to select single or multiple items efficiently. This project provides examples of configuring the ListView with key features such as **data binding**, **grouping**, **checkbox selection**, and **nested (multilevel) list items**, making it suitable for building rich list‑based user interfaces.
+
+## Project Overview
+The purpose of this project is to help developers understand how to integrate and customize the Syncfusion Blazor ListView in a Blazor WebAssembly application. It serves as a quick‑start reference for configuring ListView behavior, styling, and performance‑related features.
 
 ## Prerequisites
-
-* Visual Studio 2022
+Ensure the following requirements are met before running this project:
+- Visual Studio 2022  
+- .NET SDK compatible with Blazor WebAssembly  
+- Syncfusion Blazor packages  
+- Valid Syncfusion license key (if required)
 
 ## How to run the project
 
 * Checkout this project to a location in your disk.
 * Open the solution file using the Visual Studio 2022.
-* Restore the NuGet packages by rebuilding the solution.
+* Restore the NuGet packages by rebuilding the solution.`dotnet restore`
 * Run the project.
 
 ## Features and benefits
 
-## Virtualization or load on demand
+### Virtualization or load on demand
 The Blazor ListView supports UI virtualization to improve performance while loading huge amounts of data. This creates a fixed number of items irrespective of data volume and displays the relevant data instead of creating items.
-
-## Sortable list
+### Sortable list
 Sort data programmatically in ascending or descending order. Also use custom sorting logic.
-
-## Group list
+### Group list
 Group ListView data programmatically. You can identify a group name from group headers in the view. Also use custom sorting logic.
-
-## Multilevel ListView
+### Multilevel ListView
 The Blazor ListView represents a nested data object structure in a list of listview. The initial screen displays the first-level list items and next level will be displayed when interacting with it.
-
 ### Selection
-
 The ListBox provides support to select an item or a group of item by mouse or keyboard action.
-
-## Single selection
-
+### Single selection
 When a user clicks or taps an item, Blazor ListView enables the selection of the list item by default.
-
-## Checklist
-
+### Checklist
 The Blazor ListView Component supports multiple selection through check boxes on the right or left of the list items. This helps users select or clear a series of items without using the keyboard.
-
-## Manipulation
-
+### Manipulation
 Users can disable the Blazor ListView selection by handling events. Preserve and restore the selected values in the ListView to help users continue their work from a previously saved state.
-
-## Multiline text ListView
+### Multiline text ListView
 Arrange the list item content with multiline text, icons, and avatars.
+
+## Documentation
+- General Syncfusion documentation:
+https://help.syncfusion.com/
+- Blazor Introduction:
+https://blazor.syncfusion.com/documentation/introduction
+- Blazor ListView – Getting Started:
+https://blazor.syncfusion.com/documentation/listview/getting-started
 
 ## Related links
 [Learn More about Blazor ListView](https://www.syncfusion.com/blazor-components/blazor-listview?utm_source=github&utm_medium=listing&utm_campaign=blazor-listview-github-samples)
@@ -64,6 +69,15 @@ Arrange the list item content with multiline text, icons, and avatars.
 [Online examples](https://blazor.syncfusion.com/demos/listview/default-functionalities?utm_source=github&utm_medium=listing&utm_campaign=blazor-listview-github-samples)
 
 [Knowledge Base](https://www.syncfusion.com/kb/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-listview-github-samples)
+
+## Troubleshooting
+- Ensure NuGet packages are restored successfully.
+- Verify the Syncfusion license key is registered.
+- Rebuild the solution if UI changes are not reflected.
+- Check browser console and build logs for runtime errors.
+
+## Support
+For detailed API references, ListView configuration guidance, and advanced Blazor scenarios, refer to the Syncfusion Blazor documentation and community resources linked above.
 
 ### About Syncfusion Blazor Components
 The Syncfusion's [Blazor components](https://www.syncfusion.com/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-listview-github-samples) library offers over 70 UI components to work with Blazor server-side and client-side (Blazor WebAssembly) projects seamlessly. In addition to ListView, we provide popular Blazor Components such as [DataGrid](https://www.syncfusion.com/blazor-components/blazor-datagrid?utm_source=github&utm_medium=listing&utm_campaign=blazor-listview-github-samples), [Charts](https://www.syncfusion.com/blazor-components/blazor-charts?utm_source=github&utm_medium=listing&utm_campaign=blazor-listview-github-samples), [Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler?utm_source=github&utm_medium=listing&utm_campaign=blazor-listview-github-samples), [Diagram](https://www.syncfusion.com/blazor-components/blazor-diagram?utm_source=github&utm_medium=listing&utm_campaign=blazor-listview-github-samples), and [Word Processor](https://www.syncfusion.com/blazor-components/blazor-word-processor?utm_source=github&utm_medium=listing&utm_campaign=blazor-listview-github-samples).
